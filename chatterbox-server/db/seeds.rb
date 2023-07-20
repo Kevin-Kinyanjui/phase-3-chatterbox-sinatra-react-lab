@@ -1,3 +1,5 @@
+require_relative "../config/environment"
+
 puts "🌱 Seeding messages..."
 
 Message.create([
